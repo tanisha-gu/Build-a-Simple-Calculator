@@ -34,7 +34,7 @@ def main():
         except ValueError:
             print("Invalid input. Please enter numeric values.")
             continue
-            
+     #condition       
         if operation == 'add':
             result = add(num1, num2)
         elif operation == 'sub':
@@ -48,6 +48,6 @@ def main():
             result = divide(num1, num2)
             
         print(f"Result: {result}")
-
+#main
 if __name__ == "__main__":
     main()
